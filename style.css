@@ -1,6 +1,6 @@
 @font-face {
   font-family: workSans;
-  src: url("/assets/fonts/WorkSans-VariableFont_wght.ttf");
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
 }
 
 * {
@@ -19,7 +19,7 @@ body {
   background-color: #f9eeff;
 }
 main {
-  background: url("/assets/images/background-pattern-desktop.svg");
+  background: url("./assets/images/background-pattern-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
