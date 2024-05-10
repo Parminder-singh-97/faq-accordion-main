@@ -3,7 +3,7 @@ let head_line = document.querySelectorAll(".line_1");
 
 head_line.forEach((all_lines) => {
 
-//    console.log(all_lines);
+
 
 
    let para = all_lines.querySelectorAll(".para")[0];
@@ -23,12 +23,12 @@ all_lines.addEventListener("click",() => {
 
 
     if (para.classList.contains("hidden")) {
-        img.src = "/assets/images/icon-minus.svg"; 
+        img.src = "./assets/images/icon-minus.svg"; 
       
     } else {
-        img.src = "/assets/images/icon-plus.svg";
+        img.src = "./assets/images/icon-plus.svg";
     }
-    console.log(img)
+   
 
 
 });
