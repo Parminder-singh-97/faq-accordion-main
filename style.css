@@ -83,6 +83,7 @@ header h1 {
   /* padding-bottom: 20px; */
   max-height: 0;
   overflow: hidden;
+  cursor:pointer;
   
 }
 .para.hidden {
