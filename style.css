@@ -1,0 +1,110 @@
+@font-face {
+  font-family: workSans;
+  src: url("/assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: workSans;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #f9eeff;
+}
+main {
+  background: url("/assets/images/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  padding: 27px;
+  border-radius: 13px;
+  width: 46vw;
+
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+header {
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  gap: 1rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.line_head {
+  padding-bottom: 15px;
+  cursor: pointer;
+  width: 100%;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  text-align: center;
+}
+.line_head img {
+  width: 30px;
+}
+
+.line_head h3 {
+  font-size: 17px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line_1 p {
+  /* display: none; */
+  transition: all 0.5s linear;
+  /* padding-bottom: 20px; */
+  max-height: 0;
+  overflow: hidden;
+  
+}
+.para.hidden {
+  /* display: block; */
+  max-height: 200px;
+}
+hr{
+    margin: 5px  0 5px 0;
+}
+
+
+@media screen and (max-width: 630px) {
+    
+ .container {
+    width: 80%;
+ }
+    
+}
+@media screen and (max-width: 375px) {
+    
+ .container {
+    width: 95%;
+ }
+    
+}
